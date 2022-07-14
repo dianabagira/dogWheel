@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h2 {
+    font-family: 'Raleway' sans-serif;
+    font-size: 18px bold; /* какой т косяк*/
+}
+.title {
+    width: 100%;
+    height: 783px;
+    background-color: #fcf781;
+}
+.main {
+    width: 100%;
+    height: 783px;
+    background-color: #fff;
+}
+.footer {
+    width: 100%;
+    height: 783px;
+    background-color: #232320;
+}
+/* TITLE */
+.header {
+    /* width: 1082px;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto; */
+
+    width: 100%;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 200px;
+}
+.logo {
+    width: 144px;
+    float: left;
+    margin-top: 15px; 
+}
+.menu {
+    float: right;
+}
+.menu ul {
+    width: 390px;
+    height: 22px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 346px 0 auto;
+}
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.title_info {
+    width: 1082px;
+    height: 571px;
+    margin: 34px auto auto 180px;
+    display: flex;
+    justify-content: space-between;
+}
+.title_text {
+    width: 640px;
+    height: 362px;
+    float: left;
+    margin: 124px auto auto auto;
+}
+.title_text h1 {
+    margin: 0 auto auto 0;   
+}
+.title_text p {
+    margin: 60px auto auto 0 ;
+}
+.title_text input {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 60px auto auto 0;
+    background-color: #fcf781;
+    border: solid 2px black;
+    border-radius: 7px;
+    float: left;
+}
+
+.title_info img {
+    width: 366px;
+    height: 571px;
+    border: solid 1px black;
+    border-radius: 40px;
+    float: right;
+    margin: auto 0 auto auto;
+}
+/* MAIN */
+.main_content {
+    width: 1084px;
+    height: 561px;
+    margin: 90px auto;
+}
+.main_content h1 {
+    text-align: center;
+}
+
+.top_text {
+    height: 297px;
+    margin: 60px auto auto;
+    display: flex;
+    justify-content: space-between; 
+}
+.bottom_text {
+    height: 297px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.block {
+    width: 340px;
+    height: 267px;
+}
+.block_title {
+    width: 342px;
+    height: 37px;
+    display: flex;
+}
+
+.block_title-text {
+    font-size: 18px;
+    font-weight: bold;
+    height: 37px;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 20px;
+    
+}
+
+.block p {
+    margin-top: 30px;
+    padding-right: 3px;
+}
+
+
+
+/* FOOTER */
+.footer_content {
+    width: 650px;
+    height: 437px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_text {
+    width: 650px;
+    height: 86px;
+    padding-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_text h1 {
+    font-size: 28px;
+    color: #fcf781;
+    margin-top: 0;
+    text-align: center;
+}
+.footer_text p {
+    font-size: 18px normal;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+.send {
+    width: 650px;
+    height: 291px;
+    margin-top: 146px; /*почему счет идет от верхней границы h1 ???*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.send {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.send .form-control {
+    width: 100%;
+    height: 50px;
+    margin: 15px 0 15px 0;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding-left: 15px; 
+}
+.btn { 
+    width: 200px;
+    height: 50px;
+    margin: 15px 0 15px 0;
+    float: right;
+    background-color: #fcf781;
+    border-radius: 7px;
+    outline: none;
+}
+.send textarea {
+    width: 650px;
+    height: 50px;
+    resize: vertical;
+    text-align: justify;
+    margin: 15px 0 15px 0;
+    background-color: #fff;
+    color: #636251;
+    border-radius: 7px;
+}
+
+.send .form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.send .form-row--with-space .form-control {
+    width: 49%;
+}
+
+.description {
+    width: 1072px;
+    height: 178px;
+    display: flex;
+    color: white;
+    margin: 150px auto; /* неразбериха с отступами, написано от балды*/
+    justify-content: space-between;
+}
+.description a {
+    text-decoration: none;
+    color: white;
+}
+.description ul {
+    padding: 0;
+}
+.footer_menu ul {
+    list-style: none;
+    line-height: 40px;
+}
+.footer_contacts ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+
+
+/*
+
+
+*/
